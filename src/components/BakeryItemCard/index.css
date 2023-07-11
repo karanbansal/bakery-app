@@ -1,0 +1,39 @@
+.bkrItmCrd{
+    text-align: center;
+}
+
+.bkrItmCrd__imgWrp{
+    width: 250px;
+}
+
+.bkrItmCrd__img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bkrItmCrd__name{
+    color: brown;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.bkrItmCrd__cost{
+    color: orangered;
+    margin-top: 20px;
+}
+
+.bkrItmCrd__btn{
+    position: absolute;
+    color: orangered;
+    background: white;
+    border: 1px solid burlywood;
+    border-radius: 4px;
+    padding: 10px 15px;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+
+    &:hover{
+        cursor: pointer;
+    }
+}
